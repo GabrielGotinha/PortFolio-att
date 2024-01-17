@@ -10,7 +10,7 @@ export default function Home () {
                     
                 </div>
                 
-                <div className='flex justify-center '><Cardcont/></div>
+                <div className='flex justify-center'><Cardcont/></div>
                     
                 
             </main>
