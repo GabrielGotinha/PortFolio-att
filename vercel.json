@@ -4,10 +4,10 @@
         "src": "/", "dest": "/", "permanent": true
         },
         { 
-        "src": "/Contato", "dest": "/Contato.jsx", "permanent": true
+        "src": "/", "dest": "/Contato.jsx", "permanent": true
         },
         { 
-        "src": "/Competencias", "dest": "/Competencias.jsx", "permanent": true
+        "src": "/", "dest": "/Competencias.jsx", "permanent": true
         }
     ]
 }
