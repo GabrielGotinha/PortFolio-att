@@ -1,5 +1,7 @@
 import Cardcont from '../components/Cardcont'
 import { MaquinaDeEscrever } from '../components/EfeitoTy'
+import Footer from '../components/Footer'
+
 
 export default function Home () {
     return (
@@ -15,8 +17,9 @@ export default function Home () {
                 </div>
                 
                 <div className='flex justify-center'><Cardcont/></div>
-                    
-                
+    
+                <Footer/>
+
             </main>
         </>
     )

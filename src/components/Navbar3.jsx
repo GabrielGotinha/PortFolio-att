@@ -3,8 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaDroplet } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
@@ -34,17 +32,7 @@ export default function Navbar3 () {
       </Container>
     </Navbar>
     
-      <div>
-       <footer>
-       <nav bg="dark" data-bs-theme="dark" className="navbar  fixed-bottom bg-body-tertiary">
-  <div className="container-fluid" style={{display:'flex', justifyContent: 'center'}}>
-    <a className="navbar-brand " href="https://github.com/GabrielGotinha" target='_blank'><FaGithub /></a>
-    <a className="navbar-brand " href="www.linkedin.com/in/gabriel-angello" target='_blank'><FaLinkedin /></a>
-  </div>
-</nav>
-       </footer>
-      </div>
-
+      
       </div>
     )
 }
