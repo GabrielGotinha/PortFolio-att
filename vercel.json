@@ -1,13 +1,13 @@
 {
-    "routes": [
+    "redirects": [
         { 
-        "src": "/", "dest": "/", "permanent": true
+        "source": "/", "desdestinationt": "/", "permanent": true
         },
         { 
-        "src": "/", "dest": "/Contato.jsx", "permanent": true
+        "source": "/Contato", "destination": "/Contato.jsx", "permanent": true
         },
         { 
-        "src": "/", "dest": "/Competencias.jsx", "permanent": true
+        "source": "/Competencias", "destination": "/Competencias.jsx", "permanent": true
         }
     ]
 }
