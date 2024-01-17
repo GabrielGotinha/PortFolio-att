@@ -4,10 +4,10 @@
         "source": "/", "desdestinationt": "/", "permanent": true
         },
         { 
-        "source": "/Contato", "destination": "/Contato.jsx", "permanent": true
+        "source": "/", "destination": "/Contato", "permanent": true
         },
         { 
-        "source": "/Competencias", "destination": "/Competencias.jsx", "permanent": true
+        "source": "/", "destination": "/Competencias", "permanent": true
         }
     ]
 }
