@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro';
+  
+}
+
+h1{
+  text-shadow: 1px 2px #6d6d6e;
+  
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(52,58,64);
+background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(99,110,122,1) 35%, rgba(75,84,93,1) 100%);
+}
+
+
+
+/*
+  paleta
+  mais escura pra mais clara
+  #1C1F23
+  #343A40
+  #4B545D
+  #636E7A    
+  #7A8997
+  #91A3B4
+  #AABFD2
+
+*/
