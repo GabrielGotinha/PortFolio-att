@@ -1,11 +1,12 @@
-import Navbar2 from "./components/Navbar2"
-import Contato from "./pages/Contato"
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./pages/Home"
-import Competencias from "./pages/Competencias"
+import Navbar3 from './components/Navbar3';
+import Home from './pages/Home';
+import { Outlet } from 'react-router-dom'; 
+
 
 function App() {
-  let component
+  /*let component
   switch(window.location.pathname) {
     case '/':
       component = <Home/>
@@ -16,12 +17,14 @@ function App() {
     case '/Competencias':
       component = <Competencias/>
       break
-  }
+  }*/
 
   return (
     <>
-      <Navbar2/>
-      {component}
+      <div className='App'>
+      <Navbar3/>
+      <Outlet/>
+    </div>
     </>
   )
 }

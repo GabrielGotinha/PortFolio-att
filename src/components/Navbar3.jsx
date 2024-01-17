@@ -5,29 +5,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaDroplet } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 
-export default function Navbar2 () {
+export default function Navbar3 () {
     return (
-        /*<>
-            <nav>
-                <li><a href="/">Home</a></li>
-                <li><a href="/Competencias">Competencias</a></li>
-                <li><a href="/Contato">Contato</a></li>
-            </nav>
-        </>*/
+      
       <div>
             <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary shadow-xl" styles>
       <Container>
         <Navbar.Brand href="/"><FaDroplet /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Competencias">Competencias</Nav.Link>
-            <NavDropdown title="Sobre" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/Contato">Contato</NavDropdown.Item>
+          <Nav className="me-auto gap-3">
+            <Link to="/"><Nav className='text-gray-400 mt-2 font-semibold'>Home</Nav></Link>
+            <Link to="competencias"><Nav className='text-gray-400 mt-2 font-semibold'>Competencias</Nav></Link>
+            <Link to="contato"><Nav className='text-gray-400 mt-2 font-semibold'>Contato</Nav></Link>
+            <NavDropdown title="Sobre" className='font-semibold' id="basic-nav-dropdown">
+             
               <NavDropdown.Item href="https://www.linkedin.com/in/gabriel-angello" target='_blank'>
                 Linkedin
               </NavDropdown.Item>
