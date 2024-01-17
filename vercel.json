@@ -4,6 +4,11 @@
             "source": "/pages/Competencias",
             "destination": "/",
             "permanent": true
+          },
+          {
+            "source": "/pages/Contato",
+            "destination": "/",
+            "permanent": true
           }
     ]
 }
