@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 
+
 export default function Navbar2 () {
     return (
         /*<>
