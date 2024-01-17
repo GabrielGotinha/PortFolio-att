@@ -19,9 +19,9 @@ export default function Navbar3 () {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto gap-3">
-            <Link to="/"><Nav className='text-gray-400 mt-2 font-semibold'>Home</Nav></Link>
-            <Link to="competencias"><Nav className='text-gray-400 mt-2 font-semibold'>Competencias</Nav></Link>
-            <Link to="contato"><Nav className='text-gray-400 mt-2 font-semibold'>Contato</Nav></Link>
+            <Link to="/"><Nav className='text-gray-400 mt-2 font-semibold hover:text-gray-200'>Home</Nav></Link>
+            <Link to="competencias"><Nav className='text-gray-400 mt-2 font-semibold hover:text-gray-200'>Competencias</Nav></Link>
+            <Link to="contato"><Nav className='text-gray-400 mt-2 font-semibold hover:text-gray-200'>Contato</Nav></Link>
             <NavDropdown title="Sobre" className='font-semibold' id="basic-nav-dropdown">
              
               <NavDropdown.Item href="https://www.linkedin.com/in/gabriel-angello" target='_blank'>

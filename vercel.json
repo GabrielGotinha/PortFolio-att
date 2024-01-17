@@ -1,8 +1,8 @@
 {
     "redirects": [
         {
-            "source": "/pages/Competencias",
-            "destination": "https://portfolio-jwyz3i6sn-gabrielgotinhas-projects.vercel.app/Competencias",
+            "source": "/",
+            "destination": "/pages/Competencias",
             "permanent": true
           }
     ]

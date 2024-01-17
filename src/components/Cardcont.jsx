@@ -8,7 +8,7 @@ export default function Cardcont () {
 
           <div className="card bg-[#1C1F23] text-[#AABFD2] max-w-2xl shadow-[#1C1F23] shadow-lg">
             <div className="card-body">
-            Com amor a tecnologia resolvi entrar no Desenvolvimento Web. Desde os meus 12 anos sempre assistia videos no youtube de promgramação.
+            Com amor a tecnologia resolvi entrar no Desenvolvimento Web. Desde os meus 12 anos sempre assistia videos no youtube de programação. Quando completei meus 17 decidir aprender programação, e hoje estou sempre estudando mais e melhorando.
             </div>
           </div>
 
