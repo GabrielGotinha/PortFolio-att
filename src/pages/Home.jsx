@@ -18,9 +18,10 @@ export default function Home () {
                 
                 <div className='flex justify-center'><Cardcont/></div>
     
-                <Footer/>
+                
 
             </main>
+            <div className='fixed-bottom'><Footer/></div>
         </>
     )
 }

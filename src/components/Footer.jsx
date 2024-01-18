@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer () {
     return (
         <>
-        <div className="fixed-bottom ">
+        <div className=" mt-9">
             
             <footer bg="dark" data-bs-theme="dark" className="h-16  bg-body-tertiary">
                 

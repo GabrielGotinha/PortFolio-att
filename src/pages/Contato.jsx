@@ -4,11 +4,11 @@ import Card from 'react-bootstrap/Card';
 export default function Contato () {
     return (
         <>
-            <div className='ml-28 mt-24 flex justify-between '>
+            <div className=' mt-24 grid grid-cols-1 md:grid-cols-2 '>
                 <picture>
-                    <img src={Eu} className='w-52  rounded-full' alt="minha foto" />
+                    <img src={Eu} className='w-44  rounded-full' alt="minha foto" />
                 </picture>
-                <Card className='mr-28 flex flex-col' bg='dark' data-bs-theme="dark" >
+                <Card className=' flex flex-col' bg='dark' data-bs-theme="dark" >
                     <Card.Body>
                         <Card.Title>Email</Card.Title>
                         <Card.Text>
