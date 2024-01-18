@@ -38,7 +38,7 @@ export default function Projetos () {
       <Card.Body>
         <Card.Title>Login Context API</Card.Title>
         <Card.Text>
-          Sistema de login. Utilizando react.js, context api, localstorage. Login com requisição, onde se pode logar e ficar logado.
+          Resolve o problema de login complicado, utilizando o localstorage, ajuda na hora da requisição api. TEC: React.js, contextapi, JS
         </Card.Text>
         <Button variant="secondary" className='mt-3' href='https://login-liard-nine.vercel.app/' target='_blank'>Visite</Button>
       </Card.Body>
@@ -54,12 +54,11 @@ export default function Projetos () {
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Auto-Complete de CEP</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Resolve o problema, autocompleta o bairro, rua, etc, fazendo assim o cliente perder menos tempo digitando para realizar uma compra. TEC: bootstrap, JS
         </Card.Text>
-        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
+        <Button variant="secondary" className='mt-3' href='https://projeto-cep-cyan.vercel.app/' target='_blank'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>    
