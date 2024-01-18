@@ -18,12 +18,11 @@ export default function Projetos () {
             <div className='grid grid-flow-col content-around grid-rows-6 gap-8 w-screen m-auto pt-10 md:grid-rows-2' >
             <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Projeto Filmes</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Projeto bibloteca de filmes. Utilizando React.js, Webapi, hooks e routes. Utilizando requisição de api, treinando meus conceitos em javascript
         </Card.Text>
-        <Button variant="secondary">Go somewhere</Button>
+        <Button variant="secondary" href='https://projeto-filmes-gules.vercel.app/' target='_blank' className='mt-3'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
@@ -32,17 +31,16 @@ export default function Projetos () {
         <Card.Text>
           EM BREVE
         </Card.Text>
-        <Button variant="secondary">EM BREVE</Button>
+        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Login Context API</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Sistema de login. Utilizando react.js, context api, localstorage. Login com requisição, onde se pode logar e ficar logado.
         </Card.Text>
-        <Button variant="secondary">Go somewhere</Button>
+        <Button variant="secondary" className='mt-3' href='https://login-liard-nine.vercel.app/' target='_blank'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
@@ -51,7 +49,7 @@ export default function Projetos () {
         <Card.Text>
           EM BREVE
         </Card.Text>
-        <Button variant="secondary">EM BREVE</Button>
+        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
@@ -61,7 +59,7 @@ export default function Projetos () {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="secondary">EM BREVE</Button>
+        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>    
@@ -70,7 +68,7 @@ export default function Projetos () {
         <Card.Text>
           EM BREVE.
         </Card.Text>
-        <Button variant="secondary">EM BREVE</Button>
+        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
       </Card.Body>
     </Card>
 
