@@ -18,11 +18,11 @@ export default function Projetos () {
             <div className='grid grid-flow-col content-around grid-rows-6 gap-8 w-screen m-auto pt-10 md:grid-rows-2' >
             <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Projeto Filmes</Card.Title>
+        <Card.Title>CRUD PythonSQL</Card.Title>
         <Card.Text>
-          Projeto bibloteca de filmes. Utilizando React.js, Webapi, hooks e routes. Utilizando requisição de api, treinando meus conceitos em javascript
+          Projeto CRUD para treinar meus conhecimentos em Python conectando ao um banco de dados, que no caso e o MySQL
         </Card.Text>
-        <Button variant="secondary" href='https://projeto-filmes-gules.vercel.app/' target='_blank' className='mt-3'>Visite</Button>
+        <Button variant="secondary" href='https://github.com/GabrielGotinha/crud' target='_blank' className='mt-3'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
