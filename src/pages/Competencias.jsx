@@ -9,6 +9,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandMysql } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export default function Competencias () {
 
@@ -17,7 +19,7 @@ export default function Competencias () {
         <div className="w-screen">
             
                <div className="flex mb-2 mt-2 w-full justify-center flex-col items-center" >
-               <h1><span className="badge bg-secondary text-xl">COMPETENCIAS</span></h1>
+               <h1><span className="badge bg-secondary text-xl m-4">COMPETENCIAS</span></h1>
                     <ul className="list-group list-group-flush shadow-lg rounded-md shadow-[#1C1F23] w-3/5 bg-transparent list-group-item-dark " >
                         <li className="list-group-item font-bold flex justify-between"  >
                             Javascript 
@@ -54,10 +56,17 @@ export default function Competencias () {
                         </li>
                         <li className="list-group-item font-bold flex justify-between" >Node.js <span><FaNodeJs className="text-5xl"/></span> 
                         </li>
+                        <li className="list-group-item font-bold flex justify-between h-16" >PostgreSQL <span className="text-5xl"><BiLogoPostgresql /></span> </li>
+                        <li className="list-group-item font-bold flex justify-between h-16" >MySQL/SQL <span className="text-5xl"><TbBrandMysql /></span></li>
+                        <li className="list-group-item font-bold flex justify-between h-16" >Express </li>
+                        <li className="list-group-item font-bold flex justify-between h-16" >API RESTfull </li>
+                        <li className="list-group-item font-bold flex justify-between h-16" >MongoDb</li>
+                        <li className="list-group-item font-bold flex justify-between h-16"  >Mais Competencias no meu perfil do Linkedin</li>
                     </ul>
                </div>
+               <Footer/>
         </div>
-           <Footer/>
+           
         </>
     )
 }

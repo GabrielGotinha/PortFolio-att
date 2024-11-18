@@ -27,11 +27,11 @@ export default function Projetos () {
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>EM BREVE</Card.Title>
+        <Card.Title>API Node.js</Card.Title>
         <Card.Text>
-          EM BREVE
+          Api desenvolvida para criar, editar, pesquisar e deletar videos. Tec: Node.js, Fastify, API RESTfull, PostgreSQL
         </Card.Text>
-        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
+        <Button variant="secondary" className='mt-3' href='https://api-restfull-em-node-js.onrender.com/videos'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
@@ -45,11 +45,11 @@ export default function Projetos () {
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>EM BREVE</Card.Title>
+        <Card.Title>Biblioteca de Filmes</Card.Title>
         <Card.Text>
-          EM BREVE
+        Projeto de uma biblioteca de filmes desenvolvida em React, com integrações de API para exibir dados dinâmicos, rotas e interface intuitiva. Tec:React, JavaScript, HTML, CSS, React Hooks, Redux, Requisições API
         </Card.Text>
-        <Button variant="secondary" className='mt-3'>EM BREVE</Button>
+        <Button variant="secondary" className='mt-3' href='https://projeto-filmes-gules.vercel.app/'>Visite</Button>
       </Card.Body>
     </Card>
     <Card bg="dark" data-bs-theme="dark" style={{ width: '18rem' }}>

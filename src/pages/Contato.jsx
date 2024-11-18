@@ -1,4 +1,4 @@
-import Eu from '../images/eu.jpg'
+import Eu from '../images/eu.jpeg'
 import Card from 'react-bootstrap/Card';
 
 export default function Contato () {
@@ -17,11 +17,11 @@ export default function Contato () {
                         <Card.Title> -----------------------</Card.Title>
                         <Card.Title>Numero</Card.Title>
                         <Card.Text>
-                        (62)982662027
+                        (62)982150617
                         </Card.Text>
                         <Card.Title> -----------------------</Card.Title>
                         <Card.Text>Veja também meu perfil no </Card.Text>
-                        <Card.Text><a href='https://www.linkedin.com/in/gabriel-angello'>Linkedin</a></Card.Text>
+                        <Card.Text><a href='https://www.linkedin.com/in/gabriel-angello' style={{color: 'rgb(50, 69, 243)'}} className='underline'>Linkedin</a></Card.Text>
                     </Card.Body>
                 </Card>
             </div>

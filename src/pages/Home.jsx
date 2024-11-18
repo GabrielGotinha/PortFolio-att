@@ -31,13 +31,14 @@ export default function Home () {
                 <div className='flex justify-center'><Cardcont/></div>
                 <div className='flex justify-center mt-10'>
                 
-                    <Button variant="secondary" href='https://docs.google.com/document/d/1We2gl_jNNO-_MsffxhqTUTbL_0GyayqcU_3t9zUj3AY/edit?usp=sharing'>Curriculo</Button>
+                    <Button variant="secondary" href='https://docs.google.com/document/d/1nuQvmNrlgdrCeCiJBmZpXyRvPP2r2oanQUMfMnca1K0/edit?usp=sharing'>Curriculo</Button>
                 </div>
     
                 
-
+                
             </main>
-            <div className='fixed-bottom'><Footer/></div>
+            <div className='mt-auto '><Footer/></div>
+           
         </>
     )
 }
